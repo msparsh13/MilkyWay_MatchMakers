@@ -352,7 +352,7 @@ if m and job_text and resume_text :
             st.write('Your experience' , resume_experience)
 
     except:
-        st.write("Theres an error")
+        st.Header(":red[Theres an error , try again with different description]")
 
 
 
